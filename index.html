@@ -4,13 +4,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Site inicial</title>
+    <link rel="stylesheet" href="css/estilo.css">
 </head>
 <body>
-    <h1>Iniciando no CSS</h1>
+    <h1 class="titulo-p">Iniciando no CSS</h1>
     <h2>CSS inline</h2>
     <p>O CSS inline é a aplicação do CSS dentro do proprio elemento html colocando um style dentro da tag.</p>
     <p>Um exemplo é o seguinte print uma vez que o style está dentro da tag body: </p>
-    <img src="imgs/CSS-inline.png" alt="" width="500px">
+    <img class="img" src="imgs/CSS-inline.png" alt="Imagem de exemplo de CSS inline">
     <p>Essa pratica não é muito recomendada pois o que você colocar dentro da tag, servira apenas para ela.</p>
+    <br><br>
+
+    <hr>
+
+    <h2>CSS interno</h2>
+    <p>Ao invés de fazer o style dentro da propria tag a ser personalizada, é atribuido uma classe a esta tag e a personalização será feita em um espaço a parte criando uma tag <b>style</b> dentro da tag <b>head</b>.</p>
+    <img class="img" src="imgs/CSS-interno.png" alt="Imagem de exemplo de CSS interno sem personalização">
+    <p>Dentro dessa tag <b>style</b> você especifica que item você quer mexer e abre chaves "{}" que é onde as personalizações irão ficar.</p>
+    <img class="img" src="imgs/CSS-interno-e.png" alt="Imagem de exemplo de CSS interno com personalização">
+    <br><br>
+
+    <hr>
+
+    <h2>CSS externo</h2>
+    <p>O CSS externo é quando as personalizações ficam dentro de um arquivo CSS externo que vai ser referenciado dentro das paginas html</p>
+    <br><br>
+
+    <hr>
+
+    <h2>Seletores e Classes</h2>
+    <p>Os seletores são formas de identificar e definir qual elemento HTML deve ser utilizado então se caso queremos selecionar a tag <b>body</b> para ser personalizada no CSS, basta colocar: </p>
+    <img class="img" src="imgs/body-seletor.png" alt="Exemplo do body sendo utilizado como seletor">
+    <br>
+    <p>Já as classes, elas são utilizadas para definir toda uma configuração a algo e sempre que você quiser que uma tag especifica possua essa configuração, basta definir a classe da tag como aquela que você configurou.</p>
+    <br>
+    <p class="exemplo">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque fuga quidem quae doloribus nobis nemo ducimus libero, at officia dolore consequuntur iure autem eligendi velit, enim accusantium, distinctio ea quia.</p>
+    <br>
+
+    <img class="img" src="imgs/print-html-class.png" alt="Exemplo codigo HTML">
+
+    <div class="print-section">
+        <section>HTML</section>
+    </div>
+
+
+    <img class="img" src="imgs/print-css-class.png" alt="Exemplo codigo CSS">
+
+    <div class="print-section">
+        <section class="p-css-text">CSS</section>
+    </div>
+
+
 </body>
 </html>

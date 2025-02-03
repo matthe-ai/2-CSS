@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #cfdef3;
+    margin: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-wrap: wrap;
+}
+
+.titulo-p{
+    color: blueviolet;
+    font-size: 80px;
+    text-align: center;
+    font-weight: 70px;
+}
+h2{
+    color: black;
+    font-size: 40px;
+}
+p{
+    font-size: 20px;
+}
+
+img{
+    border-radius: 25px;
+    width: 50%;
+}
+
+.exemplo{
+    color: brown;
+    text-align: justify;
+    text-wrap: wrap;
+    width: 50%;
+    margin: auto;
+    font-size: 30px;
+    background-color: #ccc;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.print-section{
+    width: 50%;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 20px;
+}
