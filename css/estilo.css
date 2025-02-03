@@ -26,7 +26,7 @@ p{
 
 img{
     border-radius: 25px;
-    width: 75%;
+    width: 100%;
 }
 
 .exemplo{
@@ -39,6 +39,7 @@ img{
     background-color: #ccc;
     padding: 10px;
     border-radius: 5px;
+    overflow: hidden;
 }
 
 .print-section{
