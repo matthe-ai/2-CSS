@@ -1,5 +1,6 @@
 *{
     box-sizing: border-box;
+    padding: 10px;
 }
 
 body{
@@ -31,7 +32,7 @@ img{
 
 .exemplo{
     color: brown;
-    text-align: justify;
+    text-align: center;
     text-wrap: wrap;
     width: 75%;
     margin: auto;
@@ -47,4 +48,37 @@ img{
     text-align: center;
     font-size: 50px;
     padding-top: 20px;
+}
+
+ul{
+    font-size: 25px;
+    padding-left: 30px;
+}
+
+#com-b{
+    width: 50%;
+    float: left;
+    background-color: darkgreen;
+    text-align: center;
+}
+
+.sem-b{
+    width: 50%;
+    float: right;
+    background-color: none;
+    text-align: center;
+}
+
+table{
+    text-align: center;
+    margin: auto;
+    font-size: 20px;
+}
+
+.exemplo-b{
+    width: 900px;
+    background-color: #ccc;
+    margin: auto;
+    background-image: url(../imgs/background-teste.jpg);
+    background-size: cover;
 }
