@@ -70,6 +70,7 @@ ul{
 }
 
 table{
+    border: 2px dotted black;
     text-align: center;
     margin: auto;
     font-size: 20px;
@@ -81,4 +82,23 @@ table{
     margin: auto;
     background-image: url(../imgs/background-teste.jpg);
     background-size: cover;
+    background-repeat: repeat;
+}
+
+#no-border{
+    border: none;
+    color: red;
+    width: 50%;
+}
+
+#w-border{
+    border: 5px solid yellow;
+    padding: 3px;
+    display: inline-block;
+    text-wrap: wrap;
+}
+
+#exemplo-borda{
+    border: 2px solid black;
+    border-radius: 10px;
 }

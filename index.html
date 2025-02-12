@@ -79,15 +79,72 @@
         </tr>
         <tr>
             <td>background-image</td>
-            <td>Adicionar uma imagem de fundo</td>
+            <td>Adicionar uma imagem de fundo (seguido do url que é a localização da img)</td>
         </tr>
     </table>
+    <br>
+    <h3>Propriedades do background-image</h3>
+    <ul>
+        <li>background-size: contain & cover</li>
+        <ul>
+            <li>contain: significa que a imagem vai se corter e não se esticar para preencher todo o espaço</li>
+            <li>cover: significa que a imagem vai cobrir todo o espaço</li>
+        </ul>
+        <li>background-repeat: repeat & no-repeat</li>
+        <ul>
+            <li>repeat: se a imagem for menor que o espaço, ela vai se repetir para cobrir ele por completo</li>
+            <li>no-repeat: se a imagem for menor que o espaço, ela não vai se repetir para cobrir ele</li>
+        </ul>
+    </ul>
 
     <h3>Exemplo de background-image</h3>
 
     <div class="exemplo-b">
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum maxime minima odit nesciunt ab, provident animi incidunt fugit quo quis consequuntur sapiente iste eos quos adipisci debitis sit, blanditiis tempora!</p>
     </div>
+
+    <h2>Propriedade border</h2>
+    <p>A propriedade border serve para dar uma borda a "caixa" que será definida de forma similar a colocar borda no Excel, você pode definir a grossura da borda, o tipo dela e a cor dela.</p>
+    <br>
+    <p id="no-border">Sem borda.</p>
+    <br>
+    <p id="w-border">Com borda.</p>
+    <br>
+    <p>Sobre os tipos, existem estes: </p>
+    <table border="1">
+        <tr>
+            <th>tag</th>
+            <th>função</th>
+        </tr>
+        <tr>
+            <td>solid</td>
+            <td>Faz uma linha reta</td>
+        </tr>
+        <tr>
+            <td>dotted</td>
+            <td>Faz uma linha de pontos</td>
+        </tr>
+        <tr>
+            <td>dashed</td>
+            <td>Faz uma linha tracejada</td>
+        </tr>
+        <tr>
+            <td>double</td>
+            <td>Faz duas linhas retas</td>
+        </tr>
+        <tr>
+            <td>groove</td>
+            <td>Dá um certo efeito de 3d, profundidade</td>
+        </tr>
+    </table>
+    <p>Além desses atributos, dá para especificar onde a borda pode ser colocada ao adicionar na tag <b>border</b> a direção, sendo:</p>
+    <ul>
+        <li>top: topo</li>
+        <li>right: direita</li>
+        <li>left: esquerda</li>
+        <li>bottom: em baixo</li>
+    </ul>
+    <p id="exemplo-borda">Assim como também dá para deixar ela arredondada nas pontas bastando utilizar a tag <b>border-radius</b> e colocar uma medida em <b>px</b> ou porcentagem.</p>
 
 
 </body>
